@@ -6,7 +6,22 @@ namespace Open_Lab_04._12
     {
         public int MissingNum(int[] nums)
         {
-            throw new NotImplementedException();
+            int a = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                a = a + nums[i];
+            }
+            int pleb = 55 - a;
+            return pleb;
+
+
+            
+
+            
+
+
+
+
         }
     }
 }
